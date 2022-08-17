@@ -8,11 +8,11 @@ const User =()=>{
         <div>
             <UserAdd/>
             <UserCreate 
-            name=""
-            lname="" 
-            ages=""
-            email=""
-            passs=""/>
+            name="nati"
+            lname="tesfay" 
+            ages="25"
+            email="netaneltes@gmail.com"
+            passs="5050"/>
         </div>
     )
 }
