@@ -27,9 +27,6 @@ const UserCreate =({name,lname,ages,email,passs})=>{
     const printBtn =()=>{
         if (fName !="" && lName !="" && age != null && mail != "" && password != null ) {
             alert("הצלחה")
-            console.log(age)
-            console.log(mail)
-            console.log(password)
         }
     }
    

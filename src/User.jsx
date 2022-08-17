@@ -10,9 +10,9 @@ const User =()=>{
             <UserCreate 
             name=""
             lname="" 
-            ages={0}
+            ages=""
             email=""
-            passs={0} />
+            passs=""/>
         </div>
     )
 }
