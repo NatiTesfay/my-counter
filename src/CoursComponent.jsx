@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Teacher from "./Teacher"
+import Student from "./Student"
 
 const CourseComponent = ()=>{
     const courseArray = ["ENGLISH","SPANISH","ARABIC","JSPANESE","RUSSIAN"]
@@ -15,9 +16,11 @@ const CourseComponent = ()=>{
     return(
         <div>
              {courseArray.map((item)=><h1>{item}</h1>)}
-             <Teacher  />
+            
              <button onClick={changeState}>Change state</button>
-        </div>
+         <Teacher/>
+         <Student/>
+         </div>
     )
 
 
